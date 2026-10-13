@@ -7,7 +7,10 @@ authors = [
     { name = "Angel Nicolas Landa Tapia", email = "a01668133@tec.mx" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+]
 
 [project.scripts]
 toy-dataset-juliho = "toy_dataset_juliho:main"
